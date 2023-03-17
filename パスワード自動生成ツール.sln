@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "パスワード自動生成ツール", "パスワード自動生成ツール\パスワード自動生成ツール.csproj", "{E2DDCB17-90DD-43D2-AB0A-9E67B76439CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DDCB17-90DD-43D2-AB0A-9E67B76439CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DDCB17-90DD-43D2-AB0A-9E67B76439CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DDCB17-90DD-43D2-AB0A-9E67B76439CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DDCB17-90DD-43D2-AB0A-9E67B76439CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {575902FC-D773-4239-B4AB-F102E74DBE59}
+	EndGlobalSection
+EndGlobal
