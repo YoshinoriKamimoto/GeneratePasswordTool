@@ -42,7 +42,7 @@
             this.GeneratePasswordButton.Location = new System.Drawing.Point(147, 135);
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
             this.GeneratePasswordButton.Size = new System.Drawing.Size(85, 30);
-            this.GeneratePasswordButton.TabIndex = 0;
+            this.GeneratePasswordButton.TabIndex = 1;
             this.GeneratePasswordButton.Text = "パスワード生成";
             this.GeneratePasswordButton.UseVisualStyleBackColor = true;
             this.GeneratePasswordButton.Click += new System.EventHandler(this.GeneratePasswordButton_Click);
@@ -54,7 +54,7 @@
             this.WordCountTextBox.MaxLength = 2;
             this.WordCountTextBox.Name = "WordCountTextBox";
             this.WordCountTextBox.Size = new System.Drawing.Size(46, 23);
-            this.WordCountTextBox.TabIndex = 1;
+            this.WordCountTextBox.TabIndex = 0;
             // 
             // label1
             // 
@@ -68,11 +68,12 @@
             // 
             // NewPasswordTextBox
             // 
+            this.NewPasswordTextBox.Font = new System.Drawing.Font("MS UI Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.NewPasswordTextBox.Location = new System.Drawing.Point(64, 216);
             this.NewPasswordTextBox.MaxLength = 32;
             this.NewPasswordTextBox.Name = "NewPasswordTextBox";
             this.NewPasswordTextBox.ReadOnly = true;
-            this.NewPasswordTextBox.Size = new System.Drawing.Size(259, 19);
+            this.NewPasswordTextBox.Size = new System.Drawing.Size(259, 22);
             this.NewPasswordTextBox.TabIndex = 3;
             // 
             // label2
@@ -119,6 +120,7 @@
             this.Controls.Add(this.WordCountTextBox);
             this.Controls.Add(this.NewPasswordTextBox);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "パスワード自動生成ツール";
             this.ResumeLayout(false);
             this.PerformLayout();
